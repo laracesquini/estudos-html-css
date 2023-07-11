@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras formatações</title>
+</head>
+<body>
+    <h1>Outras formatações</h1>
+    <h2>Cógido-fonte / Pré-formatado</h2>
+    <p>O comando <code>documento.getElementById('teste')</code> é escrito em linguagem JavaScript</p>
+    <pre>
+        <code>
+num = int(input('Digite um número'))
+if num % 2 == 0
+    print(f'O número {num} é PAR)
+else:
+    print(f'O número {num} é Ímpar)
+print('Fim do programa')
+        </code>
+    </pre> <!--Fica com formatação de código mesmo-->
+    <h2>Citações</h2>
+    <p>Como diria o pai de uma amigo: <q>o computador é um burro muito rápido</q></p> <!--tag q coloca as aspas quando é citação. Poderia colocar as aspas na mão, mas quando for uma citação, coloca a tag q-->
+    <h2>Citações completas</h2>
+    <p>Segundo fulano no seu livro bla bla: </p>
+    <blockquote cite="https://www.google.com.br/books/edition/Fundamentos_de_HTML5_e_CSS3/ZyJyDwAAQBAJ?hl=pt-BR&gbpv=1&dq=livro+de+html&printsec=frontcover">
+        sla escreve qualquer coisa que está la no livro, essa tag blockquote é para citações maiores, referenciando um livro <!--Esse cite voce coloca o link de onde está o livro, para preservar os direitos-->
+    </blockquote>
+    <h2>Abreviações</h2>
+    <p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>.</p> <!--tag abbr que permite que ao passarmos mouse emcima da abreviação, mostre o significado da sigla-->
+    <h2>Texto invertido</h2>
+    <p><bdo dir="rtl">Estou aprendedo a criar coisas em HTML</bdo></p>
+</body>
+</html>
